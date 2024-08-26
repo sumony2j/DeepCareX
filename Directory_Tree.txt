@@ -1,0 +1,18 @@
+DeepCareX - (ROOT)
+1. Datasets - Consist 8 datasets of diseases
+2. Model_Code - Python codes for model generation of 8 disease
+3. Models - Saved deep learning and machine learning model in .hdf,.h5 and .pkl format
+4. Consist the frontend of the project -
+	a. database - 
+		1. Consist a python script to create databases and it's table 
+		2. Consist the sqlite3 database
+		3. A folder named "Uploaded" which saves all the images uploaded via frontend
+	b. static : 
+		1. Images :- consist images which have been used while frontend design
+		2. bootstrap-5.3.0-alpha3-dist :- Installed bootstrap
+		3. bootstrap-icons-1.10.5 :- Installed bootstrap icon
+		4. jquery :- consist jquery-3.6.4.mim.js script
+		5. popper :-consist popper.min.js
+	c. templates : Consists all the html files for frontend
+	d. main.py : It's the main python script to run the application, designed using flask framework
+

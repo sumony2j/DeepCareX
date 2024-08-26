@@ -1,0 +1,17 @@
+IDE : Vscode, Jupyter Notebook
+Platform :- Anaconda
+Browser : Microsoft Edge, Google browser ( Tested On )
+Languages :- python 3.9, html, css
+Framework :- Bootstrap v5.3.0-alpha, Tensorflow 2.9, Keras, Flask
+Database : - sqlite3
+Libraries :
+1. numpy
+2. pandas
+3. scikit-learn
+4. matplotlib
+5. os
+6. scipy
+7. seaborn
+8. xgboost
+9. joblib
+10. pickle

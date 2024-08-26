@@ -1,0 +1,6 @@
+[submodule "DeepCareX-Datasets"]
+	path = DeepCareX-Datasets
+	url = https://github.com/sumony2j/DeepCareX-Datasets.git
+[submodule "DeepCareX-Models"]
+	path = DeepCareX-Models
+	url = https://github.com/sumony2j/DeepCareX-Models.git

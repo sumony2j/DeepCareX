@@ -1,0 +1,13 @@
+Run The Application : 
+
+1. Create the databses :
+
+Navigate to : DeepCareX/Website/database
+Run : database.py
+Syntax : python3 database.py
+
+2. Run The Application :
+
+Navigate to : DeepCareX/Website
+Run : main.py
+Syntax : python3 main.py
