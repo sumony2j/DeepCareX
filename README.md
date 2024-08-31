@@ -692,9 +692,9 @@ Ensure you have Docker installed. You can download and install Docker from [here
 
 1. Pull the docker builtin image
 
-```bash
-docker pull sumon2j/deepcarex:latest
-```
+   ```bash
+   docker pull sumon2j/deepcarex:latest
+   ```
 2. Start the container: (Port 5000 on your host machine is mapped to port 5000 of the container as the application is running on port 5000 of the container)
 
    ```bash
