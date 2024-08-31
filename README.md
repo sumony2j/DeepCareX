@@ -1,16 +1,33 @@
-# **DeepCareX: AI-based Healthcare System**
+<h1 align="center">DeepCareX: AI-based Healthcare System</h1>
 
-**By Sumon Singh**
+<h3 align="center">Sumon Singh</h3>
+<h3 align="center">2023</h3>
 
-**Year: 2023**
 
-## **Introduction**
+---
+
+## 📝 Table of Contents
+
+-[Introduction](#intro)
+-[Objective](#obj)
+-[Literature Review](#LR)
+-[Methodology and Implementation Details](#MID)
+-[Algorithms Used For This Application](#Algo)
+-[Experimentation Setup and Results](#Exp)
+-[Use Cases](#cases)
+-[User Interfaace (UI)](#ui)
+-[Conclusion](#con)
+-[References](#ref)
+
+
+
+## **Introduction** <a name="intro"></a>
 
 Effective diagnosis of a disease is a significant need on a large scale. The development of a tool for early diagnosis and an efficient course of therapy is extremely difficult due to the complexity of the many disease mechanisms and underlying symptoms of the patient population. Some of these problems can be resolved by researchers, doctors, and patients thanks to machine learning (ML), a branch of artificial intelligence (AI).
 
 Artificial intelligence (AI) in the medical field largely focuses on creating algorithms and methods to assess if a system's behavior in diagnosing diseases is accurate. The sickness or disorders that account for a person's symptoms and indicators are identified by a medical diagnosis.
 
-## **Objectives**
+## **Objectives** <a name="obj"></a>
 
 The objectives of this project are:
 
@@ -37,7 +54,7 @@ Some of the algorithms used in this project are XGBoost, Random Forest, Logistic
 Average accuracy achieved throughout was above 90%.
 
 
-## **Literature Review**
+## **Literature Review** <a name="LR"></a>
 
 In M. Swathy and K. Saruladha's paper [1], the classification, data mining, machine learning, and deep learning models used to predict cardiovascular illnesses are compared and reported. Some of the points they noticed were that a better model with greater accuracy and performance can be produced by using more medically relevant features. Also, combining data and text mining with the current models can create effective prediction systems. Swarm intelligence techniques and genetic algorithms can be used to focus more on the feature selection and input parameters, which will increase execution. They also observed that, for 15 attributes, the Multi-layered perceptron with back propagation gives better results as compared to others.
 
@@ -104,7 +121,7 @@ O. E. Santangelo's, et al. [19] study's objective is to demonstrate if machine l
 A. K. Dwivedi [20] realized that it was crucial to develop a framework that can quickly and accurately identify the prevalence of heart disease in hundreds of samples. Six machine learning approaches were tested at this point for their ability to predict cardiac disease. These algorithms' performance was evaluated using eight different classification performance metrics. Additionally, the receiver operating characteristic curve was used to evaluate these methods. With a sensitivity and specificity of 89 and 81%, respectively, logistic regression was shown to have the greatest classification accuracy of 85%.
 
 
-## **Methodology and Implementation Details**
+## **Methodology and Implementation Details** <a name="MID"></a>
 
 The ability for a computer to automatically learn from data, enhance performance based on prior experiences, and make predictions is known as machine learning. A collection of algorithms used in machine learning operate on vast amounts of data. These algorithms are fed data to train them, and after training, they develop a model and carry out a certain task.
 
@@ -128,7 +145,7 @@ Machine learning is primarily split into four kinds based on the techniques and 
 
    > With reinforcement learning, an AI agent (a software component) automatically explores its surroundings by hitting and trailing, acting, learning from experiences, and improving performance. Reinforcement learning operates on a feedback-based process. The objective of a reinforcement learning agent is to maximise the rewards since the agent is rewarded for every good activity and penalised for every negative one. In contrast to supervised learning, reinforcement learning relies solely on the experiences of the agents.
 
-## **Algorithms Used For This Application**
+## **Algorithms Used For This Application** <a name="Algo"></a>
 
 Many techniques were used for data processing and various supervised algorithms were tested to predict the outcome, out of which the best one was used as the final model. Various methods for data cleaning were used, for example, filling the missing values with suitable values according to data. The categorical variables were converted to numeric using the One hot encoder and Label encoder features in Python's sklearn library. The following algorithms were used to predict the diseases.
 
@@ -279,7 +296,7 @@ The Visual Geometry Group (VGG) at the University of Oxford created the convolut
 
 These algorithms were used to make the appropriate predictions for the diseases.
 
-## **Experimentation Setup and Results**
+## **Experimentation Setup and Results** <a name="Exp"></a>
 
 Using HTML, Bootstrap, and Flask, eight webpages were created for the diseases. Bootstrap offers a selection of JavaScript, CSS, and HTML building blocks that may be used to create web interfaces. Python-based Flask is a compact and adaptable web framework. It is made to be straightforward, simple to use, and offers the necessities for web development. Flask is adaptable and compatible with multiple hosting settings since it adheres to the WSGI (Web Server Gateway Interface) protocol and may operate on different web servers.
 
@@ -449,7 +466,7 @@ Also, a sqlite3 database is added to store the information of the user.
 > ![](./media/image37.png)
 
 
-## **Use Case**
+## **Use Cases** <a name="cases"></a>
 
 The employment of these technologies can produce quick results within minutes, although real-life diagnosis might frequently take hours or even days. When given a set of symptoms, a trained model can quickly process and analyse the data, utilising its capacity to identify intricate patterns and make predictions based on learnt patterns from enormous amounts of data.
 
@@ -457,7 +474,7 @@ Machine and deep learning-based diagnostics' time-saving feature is especially h
 
 Additionally, the capacity to store symptom information and associated diagnoses from various individuals might be extremely beneficial for research. By combining this data, it is possible to analyse patterns and trends on a broader scale and find correlations, risk factors, and fresh perspectives on various diseases. These datasets can be used by researchers to increase understanding, create more precise models, and boost medical research and healthcare procedures.
 
-## **USER INTERFACE of the system**
+## **User Interface (UI)** <a name="ui"></a>
 
 ### Home page:
 
@@ -520,7 +537,7 @@ Additionally, the capacity to store symptom information and associated diagnoses
 ![](./media/image53.png)
 
 
-## **Conclusion**
+## **Conclusion** <a name="con"></a>
 
 With the use of machine learning models, which are employed in the project to forecast the disease based on input provided by the user as a content of symptoms which are picked from a specified list of symptoms provided to the user, the predicted outcome is presented. The projected consequence observed will also have a user interface (UI), making it simpler for a user to operate and forecast the disease based on information given and making the process easier to complete.
 
@@ -563,7 +580,7 @@ Give data privacy and security top priority because the project will be working 
 The project can develop into a complete and trustworthy health prediction and diagnosis system by putting these improvements into place. Users will be given the information they need to make wise decisions about their health, it will link them together with qualified healthcare professionals, and it will help with illness early detection and prevention.
 
 
-## **References**
+## **References** <a name="ref"></a>
 
 \[1\]. M. Swathy and K. Saruladha, "Comparative study of classification and prediction of Cardio-Vascular Diseases (CVD) using Machine Learning and Deep Learning techniques", ICT Express 8 (2022) 109--116, Science Direct, 2022.
 
