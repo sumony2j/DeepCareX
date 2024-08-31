@@ -8,16 +8,16 @@
 
 ## 📝 Table of Contents
 
--[Introduction](#intro)
--[Objective](#obj)
--[Literature Review](#LR)
--[Methodology and Implementation Details](#MID)
--[Algorithms Used For This Application](#Algo)
--[Experimentation Setup and Results](#Exp)
--[Use Cases](#cases)
--[User Interfaace (UI)](#ui)
--[Conclusion](#con)
--[References](#ref)
+- [Introduction](#intro)
+- [Objective](#obj)
+- [Literature Review](#LR)
+- [Methodology and Implementation Details](#MID)
+- [Algorithms Used For This Application](#Algo)
+- [Experimentation Setup and Results](#Exp)
+- [Use Cases](#cases)
+- [User Interfaace (UI)](#ui)
+- [Conclusion](#con)
+- [References](#ref)
 
 
 
