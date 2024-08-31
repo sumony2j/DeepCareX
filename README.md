@@ -665,7 +665,7 @@ Ensure you have Docker installed. You can download and install Docker from [here
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/deepcarex.git
+   git clone https://github.com/sumony2j/DeepCareX.git
    ```
 2. Navigate to the project directory:
 
