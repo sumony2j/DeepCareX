@@ -388,17 +388,7 @@ Also, a sqlite3 database is added to store the information of the user.
 >
 > ![](./media/image23.png)
 
-### III. **Hepatitis C**
-
-> Hepatitis C was also predicted using XGBoost Classifier. The training metrics of the model observed are:
->
-> ![](./media/image24.png)
->
-> The validation metrics are:
->
-> ![](./media/image25.png)
-
-### IV. **Heart Disease**
+### III. **Heart Disease**
 
 > To determine if a user is suffering from heart disease, Random Forest Classifier was used. The training metrics for the model are:
 >
@@ -408,7 +398,7 @@ Also, a sqlite3 database is added to store the information of the user.
 >
 > ![](./media/image27.png)
 
-### V. **Brain Tumour**
+### IV. **Brain Tumour**
 
 > Here VGG19 was used. The model gave a training accuracy of 0.98 and validation accuracy of 0.97.
 >
@@ -418,7 +408,7 @@ Also, a sqlite3 database is added to store the information of the user.
 >
 > ![](./media/image29.png)
 
-### VI. **COVID-19**
+### V. **COVID-19**
 
 > ResNet152V2 was used to determine COVID-19. The model gave a training accuracy of 0.98 and validation accuracy of 0.95.
 >
@@ -428,7 +418,7 @@ Also, a sqlite3 database is added to store the information of the user.
 >
 > ![](./media/image31.png)
 
-### VII. **Alzheimer's**
+### VI. **Alzheimer's**
 
 > To predict Alzheimer's, a Vanilla CNN network was created, the summary of which is mentioned in the Convolution Neural Network section.
 >
@@ -440,7 +430,7 @@ Also, a sqlite3 database is added to store the information of the user.
 >
 > ![](./media/image33.png)
 
-### VIII. **Kidney Disorder**
+### VII. **Kidney Disorder**
 
 > To predict kidney disorder, a CNN network was created. The model gave a 0.99 training accuracy and 0.97 validation accuracy.
 >
@@ -450,7 +440,7 @@ Also, a sqlite3 database is added to store the information of the user.
 >
 > ![](./media/image35.png)
 
-### IX. **Pneumonia**
+### VIII. **Pneumonia**
 
 > DenseNet201 was used here and it gave a training accuracy of 0.98 and validation accuracy of 0.83. The accuracy and loss illustrations are given below:
 >
