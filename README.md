@@ -128,11 +128,11 @@ Machine learning is primarily split into four kinds based on the techniques and 
 
    > With reinforcement learning, an AI agent (a software component) automatically explores its surroundings by hitting and trailing, acting, learning from experiences, and improving performance. Reinforcement learning operates on a feedback-based process. The objective of a reinforcement learning agent is to maximise the rewards since the agent is rewarded for every good activity and penalised for every negative one. In contrast to supervised learning, reinforcement learning relies solely on the experiences of the agents.
 
-## **Algorithms Used**
+## **Algorithms Used For This Application**
 
 Many techniques were used for data processing and various supervised algorithms were tested to predict the outcome, out of which the best one was used as the final model. Various methods for data cleaning were used, for example, filling the missing values with suitable values according to data. The categorical variables were converted to numeric using the One hot encoder and Label encoder features in Python's sklearn library. The following algorithms were used to predict the diseases.
 
-### **Logistic Regression**
+### **1. Logistic Regression**
 
 One of the most often used Machine Learning algorithms, within the category of Supervised Learning, is logistic regression. Using a predetermined set of independent variables, it is used to predict the categorical dependent variable.
 
@@ -140,7 +140,6 @@ In a categorical dependent variable, the output is predicted by logistic regress
 
 Logistic regression fits an "S" shaped logistic function, which predicts two maximum values (0 or 1). The threshold value idea in logistic regression sets the likelihood of either 0 or 1. For instance, include values that incline to 1 over the threshold value and to 0 below it.
 
-!Logistic Regression in Machine Learning
 ![Logistic Regression in Machine
 Learning](./media/image1.png)
 
@@ -150,11 +149,10 @@ Based on the categories, there are three different types of logistic regression:
 - **Multinomial**: In multinomial logistic regression, the dependent variable may be one of three or more potential unordered kinds.
 - **Ordinal**: In ordinal logistic regression, the dependent variables can be categorised into one of three potentially ordered classes, such as "low," "Medium," or "High".
 
-### **Decision Tree**
+### **2. Decision Tree**
 
 A supervised learning method called a decision tree can be used to solve classification and regression issues. It is a tree-structured classifier, where internal nodes represent a dataset's characteristics, branches for the decision-making process, and each leaf node for the classification result. The Decision Node and Leaf Node are the two nodes of a decision tree. While Leaf nodes are the results of decisions and do not have any additional branches, Decision nodes are used to make decisions and have multiple branches. The provided dataset's characteristics are used to execute the test or make the judgements. It is a graphical form for gathering all potential responses to a problem or decision based on conditions of data.
 
-!Decision Tree Classification Algorithm
 ![Decision Tree Classification
 Algorithm](./media/image2.png)
 
@@ -166,16 +164,15 @@ Following the segmentation of a dataset based on an attribute, information gain 
 
 The CART (Classification and Regression Tree) technique uses the Gini index as a measure of impurity or purity while building decision trees. An attribute with a low Gini index is preferable to one with a high Gini index.
 
-### **Random Forest**
+### **3. Random Forest**
 
 The supervised learning method includes the well-known machine learning algorithm, Random Forest. It can be applied to ML Classification and Regression issues. Its foundation is the idea of ensemble learning, which is the process of integrating various classifiers to address a difficult issue and enhance the performance of the model. Random Forest uses a number of decision trees on different subsets of the input dataset and averages the results to increase the dataset's predicted accuracy. Instead of depending on a single decision tree, the random forest uses forecasts from all of the trees to anticipate the outcome based on which predictions received the most votes.
 
 Higher accuracy can be achieved if the number of trees is increased.
 
-!Random Forest Algorithm
 ![Random Forest Algorithm](./media/image3.png)
 
-### **XGBoost**
+### **4. XGBoost**
 
 The Python XGBoost package implements gradient-boosted decision trees with a focus on speed and execution, which is the most crucial component of ML (machine learning). Gradient Boosting is an AI technique that is used, among other things, in classification and regression assignments. It presents a forecast model as a group of weak decision trees for forecasting.
 
@@ -187,7 +184,7 @@ The Python XGBoost package implements gradient-boosted decision trees with a foc
 - The loss function is constrained by combining all of the weak models using the additive model.
 - Each tree is added, making sure that no already existing trees in the decision tree are modified. The ideal hyper bounds are regularly discovered using the angle plummet procedure, after which more loads are refreshed.
 
-### **Support Vector Machines**
+### **5. Support Vector Machines**
 
 One of the most well-liked supervised learning algorithms, Support Vector Machine, or SVM, is used to solve Classification and Regression problems. However, it is primarily employed in Machine Learning Classification problems.
 
@@ -195,7 +192,6 @@ The SVM algorithm's objective is to establish the optimal line or decision bound
 
 SVM selects the extreme vectors and points which help in the creation of the hyperplane. Support vectors, which are used to represent these extreme instances, form the basis for the SVM method.
 
-!Support Vector Machine Algorithm
 ![Support Vector Machine
 Algorithm](./media/image4.png)
 
@@ -204,7 +200,7 @@ There are two types of SVM:
 - **Linear SVM**: Linear SVM is applied for data that can be divided into two classes using a single straight line. This type of data is called linearly separable data, and the classifier employed is known as a Linear SVM classifier.
 - **Non-linear SVM**: Non-Linear SVM is a method of classification for non-linearly separated data. If a dataset cannot be categorised using a straight line, it is considered non-linear data, and the classifier employed is referred to as a Non-linear SVM classifier.
 
-### **Convolutional Neural Networks**
+### **6. Convolutional Neural Networks**
 
 One of the primary categories used in neural networks for image recognition and classification is the convolutional neural network.
 
@@ -222,9 +218,9 @@ Network](./media/image5.png)
 ![Convolutional Neural
 Network](./media/image6.jpeg)
 
-In this project, a simple CNN network was used to predict the outcome for two diseases.
+#### In this project, a simple CNN network was used to predict the outcome for two diseases.
 
-The summary of the model for predicting Alzheimer's is:
+**The summary of the model for predicting Alzheimer's is:**
 
 ![](./media/image7.png)
 
@@ -232,7 +228,7 @@ The summary of the model for predicting Alzheimer's is:
 
 ![](./media/image9.png)
 
-The summary of the model used to predict the outcome of Kidney disorder is:
+**The summary of the model used to predict the outcome of Kidney disorder is:**
 
 ![](./media/image10.png)
 
@@ -243,7 +239,7 @@ The summary of the model used to predict the outcome of Kidney disorder is:
 ![](./media/image13.png)
 
 
-## **Transfer Learning Models**
+## **7. Transfer Learning Models**
 
 Transfer learning is a machine learning research subject that is concerned with the storage of information obtained while resolving one problem and its subsequent application to another, related problem. Transfer learning is the ability to retain the knowledge gained from addressing one problem and apply it to a different one later on. With transfer learning, models are created utilising prior knowledge that demonstrates greater effectiveness and learns more quickly with less training data. The nicest thing about transfer learning is that just a portion of the trained model has to be learned in order to use it. Transfer learning helps us do this while saving time.
 
