@@ -29,7 +29,7 @@ Artificial intelligence (AI) in the medical field largely focuses on creating al
 
 ## **Objectives** <a name="obj"></a>
 
-The objectives of this project are:
+The objectives of this project is:
 
 1. **Identify diseases by analyzing symptoms.**
    - Users need to input their required data according to the disease. This could be blood sugar levels, their x-ray scans, smoking history, and parameters as per the disease.
