@@ -405,7 +405,7 @@ Also, a sqlite3 database is added to store the information of the user.
 >
 > ![](./media/image23.png)
 
-### III. Hepatitis C**
+### III. **Hepatitis C**
 
 > Hepatitis C was also predicted using XGBoost Classifier. The training metrics of the model observed are:
 >
