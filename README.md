@@ -677,7 +677,7 @@ Ensure you have Docker installed. You can download and install Docker from [here
    ```bash
    docker build -t deepcarex .
    ```
-4. Start the container: **(Port 5000 on your host machine is mapped to port 5000 of the container as the application is running on port 5000 of the container)**
+4. Start the container: (Port 5000 on your host machine is mapped to port 5000 of the container as the application is running on port 5000 of the container)
 
    ```bash
    docker run -it -d -p 5000:5000 deepcarex
@@ -695,7 +695,7 @@ Ensure you have Docker installed. You can download and install Docker from [here
 ```bash
 docker pull sumon2j/deepcarex:latest
 ```
-2. Start the container: **(Port 5000 on your host machine is mapped to port 5000 of the container as the application is running on port 5000 of the container)**
+2. Start the container: (Port 5000 on your host machine is mapped to port 5000 of the container as the application is running on port 5000 of the container)
 
    ```bash
    docker run -it -d -p 5000:5000 deepcarex:latest
