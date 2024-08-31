@@ -405,15 +405,15 @@ Also, a sqlite3 database is added to store the information of the user.
 >
 > ![](./media/image23.png)
 
-### III. **Heart Disease**
+### III. Hepatitis C**
 
-> To determine if a user is suffering from heart disease, Random Forest Classifier was used. The training metrics for the model are:
+> Hepatitis C was also predicted using XGBoost Classifier. The training metrics of the model observed are:
 >
-> ![](./media/image26.png)
+> ![](./media/image24.png)
 >
 > The validation metrics are:
 >
-> ![](./media/image27.png)
+> ![](./media/image25.png)
 
 ### IV. **Brain Tumour**
 
