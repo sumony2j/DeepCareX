@@ -18,7 +18,9 @@
 - [User Interfaace (UI)](#ui)
 - [Conclusion](#con)
 - [References](#ref)
+- [Project Presentation](#ppt)
 
+---
 
 
 ## **Introduction** <a name="intro"></a>
@@ -619,3 +621,9 @@ The project can develop into a complete and trustworthy health prediction and di
 \[18\]. Dr C K Gomathy, Mr. A. R. Naidu, "The Prediction of disease using Machine Learning", International Journal of Scientific Research in Engineering and Management (IJSREM) ,Volume: 05 Issue:10,Oct -- 2021.
 
 \[19\]. Santangelo, O.E.; Gentile, V.; Pizzo, S.; Giordano, D.; Cedrone, F. "Machine Learning and Prediction of Infectious Diseases: A Systematic Review". Mach. Learn. Knowl. Extr. 2023, 5, 175--198.
+
+## **Project Presentation** <a name="ppt"></a>
+
+You can view the project presentation here:
+
+[Project Presentation PDF](./DeepCareX.pdf)
