@@ -20,6 +20,7 @@
 - [References](#ref)
 - [Project Presentation](#ppt)
 - [Installation](#install)
+- [Docker Deployment](#docker)
 - [Contribution](#contri)
 
 ---
@@ -652,6 +653,58 @@ Build the project from source: (On a local System)
 ```
 Follow the Instruction.txt file
 ```
+
+## **Docker Deployment** <a name=docker></a>
+
+### Prerequisites
+
+Ensure you have Docker installed. You can download and install Docker from [here](https://docs.docker.com/get-docker/).
+
+### Building the Docker Image
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/deepcarex.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd DeepCareX
+   ```
+3. Build the Docker image:
+
+   ```bash
+   docker build -t deepcarex .
+   ```
+4. Start the container: **(Port 5000 on your host machine is mapped to port 5000 of the container as the application is running on port 5000 of the container)**
+
+   ```bash
+   docker run -it -d -p 5000:5000 deepcarex
+   ```
+5. Access the application:
+
+   ```bash
+   Open your web browser and go to http://localhost:5000
+   ```
+
+### Use Docker image from DockerHub
+
+1. Pull the docker builtin image
+
+```bash
+docker pull sumon2j/deepcarex:latest
+```
+2. Start the container: **(Port 5000 on your host machine is mapped to port 5000 of the container as the application is running on port 5000 of the container)**
+
+   ```bash
+   docker run -it -d -p 5000:5000 deepcarex:latest
+   ```
+3. Access the application:
+
+   ```bash
+   Open your web browser and go to http://localhost:5000
+   ```
 
 ##  Contributing <a name="contri"></a>
 
