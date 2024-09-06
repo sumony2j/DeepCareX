@@ -3,6 +3,11 @@
 <h3 align="center">Sumon Singh</h3>
 <h3 align="center">2023</h3>
 
+---
+
+## Live Demo
+You can explore the live version of this project here:  
+[DeepCareX](https://deepcarex-latest.onrender.com/)
 
 ---
 
@@ -637,7 +642,7 @@ Build the project from source: (On a local System)
 
 1. Clone the DeepCareX.git repository:
 ```sh
-❯ git clone https://github.com/sumony2j/DeepCareX.git
+❯ git clone --recurse-submodules -j8 https://github.com/sumony2j/DeepCareX.git
 ```
 
 2. Navigate to the project directory:
@@ -665,7 +670,7 @@ Ensure you have Docker installed. You can download and install Docker from [here
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/sumony2j/DeepCareX.git
+   git clone --recurse-submodules -j8 https://github.com/sumony2j/DeepCareX.git
    ```
 2. Navigate to the project directory:
 
